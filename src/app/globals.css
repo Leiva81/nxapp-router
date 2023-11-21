@@ -17,11 +17,61 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: white;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+
+}
+
+.pageTienda {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  height: 200px;
+  width: 150px;
+}
+
+.pageTienda .electronica, .decoracion, .mobiliario, .libros {
+  
+  margin-top: 20px;
+  margin-left: 35px;
+  
+}
+
+.Inicio, .blog, .acercade, .registro {
+  margin: 20px;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.pageTienda .tienda {
+  margin-left: 200px;
+  margin-bottom: -40px;
+  color: black;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.navbar .Tienda{
+  margin-left: -500px;
+}
+
+.navbar .Blog{
+  margin-left: -500px;
+}
+
+.navbar .Acercade{
+  margin-left: 500px;
+  margin-right: -500px;
+}
+
+
